@@ -34,4 +34,4 @@ jobs:
         run: npm install --global surge
         
       - name: Deployment with surge
-        run: surge ./http://pro-marketing.surge.sh/ --token ${{ secrets.MARKETING_TOKEN}}
+        run: surge ./ http://pro-marketing.surge.sh/ --token ${{ secrets.MARKETING_TOKEN}}
