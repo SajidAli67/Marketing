@@ -1,0 +1,14 @@
+font- poppins
+nav 
+	font-size:16px
+header
+	font-size:50px
+	font-size: 74px
+header p
+	poppins light
+	font-size:16px
+	
+button
+	color: 1. #4e44e1 2.1a129f
+price bg 
+	backgourdn-color :#ecebfe
