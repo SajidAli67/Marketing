@@ -45,10 +45,14 @@
     padding: 1rem 1.5rem;
     font-size: 1rem;
     z-index: 100;
+    box-shadow: 15px 9px 25px 0 rgb(0 0 0 / 10%);
+
+
+
   }
   .nav-menu {
     position: fixed;
-    left: -152%;
+    left: -500%;
     top: 6rem;
     flex-direction: column;
     background-color: #19129fde;
@@ -159,7 +163,7 @@
 }
 @media (max-width: 480px) {
   .nav-menu {
-    left: -200%;
+    left: -500%;
   }
   .header-text h2 {
     font-size: 1.4rem;
@@ -199,5 +203,24 @@ footer{
 footer .social {
   padding: 0rem 2rem 0px;
   margin-top: -12rem;
+}
+}
+@media (max-width: 480px){
+  .header-text h2 {
+    font-size: 1.2rem;
+  }
+  .header-text h1 {
+    font-size: 1.1rem;
+  }
+  .newslatter .form-control{
+    width: 100%;
+    margin: 0px 0rem 0px 0rem;
+    
+}
+.btn-news{
+  margin-top: 1rem;
+}
+.header-social{
+  display: none;
 }
 }
